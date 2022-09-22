@@ -133,7 +133,7 @@ def shortest_path(source, target):
                     people.reverse()
 
                     for i in range(len(movies)):
-                        solution.append((movies[i], people[i])
+                        solution.append((movies[i], people[i]))
 
                     return solution
 
